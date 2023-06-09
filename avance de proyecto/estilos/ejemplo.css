@@ -1,0 +1,135 @@
+body{
+    background-color: #210E03;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 2000 1500'%3E%3Cdefs%3E%3Cpath fill='none' stroke-width='200' stroke-opacity='0.14' id='a' d='M0.74-509.63l485.39 352.65l-185.4 570.61h-599.97l-185.4-570.61L0.74-509.63 M0.74-510.87l-486.56 353.51l185.85 571.99h601.42L487.3-157.36L0.74-510.87L0.74-510.87z'/%3E%3C/defs%3E%3Cg transform='scale(0.784)' style='transform-origin:center'%3E%3Cg transform='rotate(34.56 0 0)' style='transform-origin:center'%3E%3Cg transform='rotate(-96 0 0)' style='transform-origin:center'%3E%3Cg transform='translate(1000 750)'%3E%3Cuse stroke='%23765A05' href='%23a' transform='rotate(6 0 0) scale(1.06)'/%3E%3Cuse stroke='%237d5a00' href='%23a' transform='rotate(12 0 0) scale(1.12)'/%3E%3Cuse stroke='%23845a00' href='%23a' transform='rotate(18 0 0) scale(1.18)'/%3E%3Cuse stroke='%238c5a00' href='%23a' transform='rotate(24 0 0) scale(1.24)'/%3E%3Cuse stroke='%23945900' href='%23a' transform='rotate(30 0 0) scale(1.3)'/%3E%3Cuse stroke='%239c5800' href='%23a' transform='rotate(36 0 0) scale(1.36)'/%3E%3Cuse stroke='%23a55700' href='%23a' transform='rotate(42 0 0) scale(1.42)'/%3E%3Cuse stroke='%23ae5400' href='%23a' transform='rotate(48 0 0) scale(1.48)'/%3E%3Cuse stroke='%23b85200' href='%23a' transform='rotate(54 0 0) scale(1.54)'/%3E%3Cuse stroke='%23c14e00' href='%23a' transform='rotate(60 0 0) scale(1.6)'/%3E%3Cuse stroke='%23cb4900' href='%23a' transform='rotate(66 0 0) scale(1.66)'/%3E%3Cuse stroke='%23d54300' href='%23a' transform='rotate(72 0 0) scale(1.72)'/%3E%3Cuse stroke='%23df3c00' href='%23a' transform='rotate(78 0 0) scale(1.78)'/%3E%3Cuse stroke='%23ea3200' href='%23a' transform='rotate(84 0 0) scale(1.84)'/%3E%3Cuse stroke='%23f42300' href='%23a' transform='rotate(90 0 0) scale(1.9)'/%3E%3Cuse stroke='%23FF0101' href='%23a' transform='rotate(96 0 0) scale(1.96)'/%3E%3C/g%3E%3C/g%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+    background-attachment: fixed;
+    background-size: cover;
+}
+/* moficacion del submenu registro */
+.registro{
+    color: #f2eeee;
+    background-color: #f04e4e;
+}
+ul.encabezado{
+    background-color: #bc3434;
+    color: white;
+}
+a{
+    color: rgb(19, 18, 18);
+}
+
+/* modifcacion del menu */
+.navbar{
+    color: #210E03;
+    font-size: 1.2rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+/* MENU HORIZONTAL */
+.nav{  
+    color: rgb(253, 249, 249);
+    grid-column-start: 2; /* ESPECIFICA EN QUE GRILLA VA ESTAR EN CONTENIDO */
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.nav li a{  /* ITEMS DEL MENU  (lista y links) */
+    display: block;
+    padding: 0.6rem 1rem;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+ /* MENU VERTICAL ADESPLEGABLE*/
+.menuVertical{ 
+    display: none;
+    position: absolute;
+    list-style: none;
+    width: 15rem;
+    padding: 0;
+    background-color: rgba(30, 30, 30, 0.850);
+    z-index: 2; 
+}
+
+/* modificacion de l amiga de pan */
+ol{
+    background-color: none;
+    text-decoration: none;
+}
+/* titulo de accesorios */
+.title{
+    color: white;
+}
+/* modifiacacion de las cards*/
+.btn{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.2rem;
+    border: none;
+    background-color: #f90202;
+    box-shadow: 0px 0px 5px 2px #121212;
+    border-radius: 20px;
+}
+.btn:hover{
+    background-color: rgb(12, 12, 13);
+    border: none ;
+}
+.row{
+    margin: 0 8rem 4rem 8rem;
+
+}
+.card-body{
+    color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.card-title{
+    font-size: 1.5rem;
+}
+h6{
+    color: #121212;
+}
+/* modificacion de los modales */
+.modal-content{
+    background-color: rgba(77, 76, 76, 0.537);
+    box-shadow: 0px 0px 5px 5px #e80909;
+}
+
+/* cerrar el modal*/
+.close{
+    color: #f3eeee;
+}
+.close:hover{
+    background-color: #f90202;
+}
+
+/* modificacion de h3, p, h5 */
+h5{
+    color: #f7f1f1;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+h3{
+    color: #fcf4f4;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+p{
+    color: #fcf4f4;
+}
+/* modificar el footer del modal */
+.modal-footer{
+    justify-content: center;
+}
+/* cerrar el modal*/
+.close{
+    color: #f3eeee;
+}
+.close:hover{
+    background-color: #f90202;
+}

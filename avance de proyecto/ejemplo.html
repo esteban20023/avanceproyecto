@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="imagenes">
+  <link rel="stylesheet" href="estilos/ejemplo.css">
+  <title>ACCESORIOS</title>
+</head>
+<body>
+  <nav class="registro navbar navbar-expand-md navbar-light bg-light">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#REGISTRO" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-user-icon"></span>
+    </button>
+    <div class="regist collapse navbar-collapse" id="REGISTRO">
+      <ul class="encabezado navbar-nav ml-auto">
+        <li class="nav-item itemText">
+          <a class="navbar-brand inicio" href="#">INICIAR SESIÓN</a>
+          <a class="navbar-brand registro" href="#">REGISTRARME</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+
+
+  <nav class="navbar navbar-expand-md navbar-light bg-light">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item itemText">
+              <a class="nav-text" aria-current="page" href="./index.html">Inicio</a>
+          </li>
+          <li class="nav-item itemText">
+              <a class="nav-text" href="#">Productos</a>
+              <ul class="menuVertical">
+                  <li><a class="nav-text" href="./accesorios.html">Accesorios</a></li>
+                  <li><a class="nav-text" href="./repuestos.html">Repuestos</a></li>x
+                  <li><a class="nav-text" href="./indumentaria.html">Indumentaria</a></li>
+              </ul>
+          </li>
+          <li class="nav-item itemText">
+              <a class="nav-text" href="#">Servicios</a>
+              <ul class="menuVertical">
+                  <li><a class="nav-text" href="servicio mecanico.html">Mecánicos</a></li>
+                  <li><a class="nav-text" href="servicio electrico.html">Eléctricos</a></li>
+              </ul>
+          </li>
+          <li class="nav-item itemText">
+              <a class="nav-text" href="#">Contactenos</a>
+          </li>
+      </ul>
+    </div>
+  </nav>
+<br>
+  <!-- miga de pan -->
+  <nav aria-label="breadcrumb">
+    <ol class="breadcrumb">
+      <li class="breadcrumb-item"><a href="./index.html">Inicio</a></li>
+      <li class="breadcrumb-item"><a href="./accesorios.html">Productos</a></li>
+      <li class="breadcrumb-item"><a href="./accesorios.html">Accesorios</a></li>
+    </ol>
+  </nav>
+
+  <!--nombre de los productos que estamos ofeciendo-->
+  <!-- titulo de accesorios -->
+  <div class="container-title text-center">
+    <div class="row align-items-start">
+  <div class="col">
+    <h1 class="title">ACCESORIOS</h1>
+  </div>
+  </div>
+  </div>
+
+
+  <!-- card modificar -->
+<!-- las cards donde mostramos los productos -->
+  <div class="row col-ms-3 col-ms-3 col-ms-3 ">
+    <div class="col">
+      <!-- primer modal  -->
+      <div class="card h-100">
+        <img src="imagenes/imagenes/moto2.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h6 class="card-title">Título de la tarjeta</h6>
+           <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#productModal">
+          DETALLES
+        </button>
+        </div>
+      </div>
+    </div>
+    <!-- segundo  modal  -->
+    <div class="col">
+      <div class="card h-100">
+        <img src="imagenes/imagenes/moto1.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h6 class="card-title">Título de la tarjeta</h6>
+           <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#productModal2">
+          DETALLES
+        </button>
+          </div>
+      </div>
+    </div>
+    <!-- tercer modal  -->
+    <div class="col">
+      <div class="card h-100">
+        <img src="imagenes/imagenes/moto3.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h6 class="card-title">Título de la tarjeta</h6>
+           <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#productModal3">
+          DETALLES
+        </button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="row col-ms-3 col-ms-3 col-ms-3 ">
+    <!-- cuarto modal -->
+    <div class="col">
+      <div class="card h-100">
+        <img src="imagenes/imagenes/moto2.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h6 class="card-title">Título de la tarjeta</h6>
+           <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#productModal4">
+          DETALLES
+        </button>
+        </div>
+      </div>
+    </div>
+    <!-- quinto modal -->
+    <div class="col">
+      <div class="card h-100">
+        <img src="imagenes/imagenes/moto1.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h6 class="card-title">Título de la tarjeta</h6>
+           <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#productModal5">
+          DETALLES
+        </button>
+          </div>
+      </div>
+    </div>
+    <!-- sexto modal -->
+    <div class="col">
+      <div class="card h-100">
+        <img src="imagenes/imagenes/moto3.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h6 class="card-title">Título de la tarjeta</h6>
+          <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#productModal6">
+            DETALLES
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+   
+ <!-- crreacion de los modales de donde me van a mostrar los detalles de los productos-->
+  <!-- Modal 1-->
+  <div class="modal fade" id="productModal" tabindex="-1" role="dialog" aria-labelledby="productModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="productModalLabel">Detalle del Producto</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <!-- Contenido del detalle del producto -->
+          <img src="imagenes/imagenes/moto2.jpg" alt="" width="250px" >
+          <h3>Nombre del Producto</h3>
+          <p>Descripción del producto.</p>
+          <p>Precio: $99.99</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary agregar" data-dismiss="modal">agregar al carrito</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <!-- modal2 -->
+  <div class="modal fade" id="productModal2" tabindex="-1" role="dialog" aria-labelledby="productModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="productModalLabel">Detalle del Producto</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <!-- Contenido del detalle del producto -->
+          <img src="imagenes/imagenes/moto3.jpg" alt="" width="250px" >
+          <h3>Nombre del Producto</h3>
+          <p>Descripción del producto.</p>
+          <p>Precio: $99.99</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Agregar al carrito</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+<!-- modal 3 -->
+<div class="modal fade" id="productModal3" tabindex="-1" role="dialog" aria-labelledby="productModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="productModalLabel">Detalle del Producto</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <!-- Contenido del detalle del producto -->
+        <img src="imagenes/imagenes/moto1.jpg" alt="" width="250px" >
+        <h3>Nombre del Producto</h3>
+        <p>Descripción del producto.</p>
+        <p>Precio: $99.99</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Agregar al carrito</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- modal 4 -->
+<div class="modal fade" id="productModal4" tabindex="-1" role="dialog" aria-labelledby="productModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="productModalLabel">Detalle del Producto</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <!-- Contenido del detalle del producto -->
+        <img src="imagenes/imagenes/moto2.jpg" alt="" width="250px" >
+        <h3>Nombre del Producto</h3>
+        <p>Descripción del producto.</p>
+        <p>Precio: $99.99</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Agregar al carrito</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- modal 5 -->
+<div class="modal fade" id="productModal5" tabindex="-1" role="dialog" aria-labelledby="productModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="productModalLabel">Detalle del Producto</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <!-- Contenido del detalle del producto -->
+        <img src="imagenes/imagenes/moto2.jpg" alt="" width="250px" >
+        <h3>Nombre del Producto</h3>
+        <p>Descripción del producto.</p>
+        <p>Precio: $99.99</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Agregar al carrito</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- modal 6 -->
+<div class="modal fade" id="productModal6" tabindex="-1" role="dialog" aria-labelledby="productModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="productModalLabel">Detalle del Producto</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <!-- Contenido del detalle del producto -->
+        <img src="imagenes/imagenes/moto2.jpg" alt="" width="250px" >
+        <h3>Nombre del Producto</h3>
+        <p>Descripción del producto.</p>
+        <p>Precio: $99.99</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Agregar al carrito</button>
+      </div>
+    </div>
+  </div>
+</div>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</body>
+</html>
