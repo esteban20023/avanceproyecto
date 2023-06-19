@@ -45,7 +45,7 @@ body{
     /* justify-content:space-between; / / JUSTIFICAR EL CONTENIDO EN EL CENTRO DE LOS LADOS */
     /* text-align: center; /  / JUSTIFICAR EL CONTENIDO EN EL CENTRO DE LOS LADOS */
 }
-.btnEnca1{ /* BOTON INICIAR SESION */
+.btnInicioSesion{ /* BOTON INICIAR SESION */
     display: flex;
     top: 30px;
     color: rgb(250, 249, 249);
@@ -59,11 +59,11 @@ body{
     padding: 0 0.5rem; /* ESPACIO SOLO A LOS LADOS AL BOTON */
     font-size: 1.4rem;
 }
-.btnEnca1:hover{
+.btnInicioSesion:hover{
     background-color: rgba(45, 45, 45, 0.95);
     color: white;
 }
-.btnEnca2{  /* BOTON REGISTRARSE */
+.btnRegistro{  /* BOTON REGISTRARSE */
     color: rgb(255, 255, 255);
     text-decoration: none; /* QUITAR DECORACION DEL TEXTO */ 
     font-size: 1rem;
@@ -75,8 +75,8 @@ body{
     padding: 0 0.5rem; /* ESPACIO SOLO A LOS LADOS AL BOTON */
     font-size: 1.4rem;
 }
-.btnEnca2:hover{
-    background-color: rgba(255, 30, 30, 0.950);
+.btnRegistro:hover{
+    background-color: rgba(255, 30, 30, 0.850);
     color: rgb(0, 0, 0);
 }
 
@@ -94,10 +94,10 @@ body{
     align-items: center;
     justify-items: center;
     color: rgba(200, 200, 200, 0.800);
-    font-size: 0.8rem;
+    font-size: 1.5rem;
     padding: 0.7rem 0 0 1rem; /* ESPACIO ARRIBA Y LADO IZQUIDO DE LA MIGA DE PAN */
 }
-
+ 
 .nav{  /* MENU HORIZONTAL */
     color: rgb(253, 249, 249);
     grid-column-start: 2; /* ESPECIFICA EN QUE GRILLA VA ESTAR EN CONTENIDO */
